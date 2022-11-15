@@ -12,10 +12,10 @@ router.post("/create_services" , createServices);
 router.get("/get_all_services" , getAllServices)
 
 //router to update a services
-router.put("/update_services/:id" , updateServices)
+router.put("/update_services" , updateServices)
 
 //router to delete a services
-router.put("/delete_services/:id" , deleteServices)
+router.put("/delete_services" , deleteServices)
 
 
 module.exports = router
